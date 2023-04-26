@@ -2,16 +2,17 @@
 #include <stdlib.h>
 
 int main(void){
-    printf("%d + %d = %d\n",2,3,2+3);
-    printf("%d - %d = %d\n",2,3,2-3);
-    printf("%d * %d = %d\n",2,3,2*3);
-    printf("%d / %d = %d\n",2,3,2/3);
-    printf("%d %% %d = %d\n\n",2,3,2%3);
+    int a;
+    float b;
+    char c;
 
-    printf("%f + %f = %f\n",2.5,3.5,2.5+3.5);
-    printf("%f - %f = %f\n",2.5,3.5,2.5-3.5);
-    printf("%f * %f = %f\n",2.5,3.5,2.5*3.5);
-    printf("%f / %f = %f\n\n",2.5,3.5,2.5/3.5);
+    a=5;
+    b=8.3;
+    c='x';
+
+    printf("a = %d\n",a);
+    printf("b = %f\n",b);
+    printf("c = %c\n",c);
 
     return 0;
 }
