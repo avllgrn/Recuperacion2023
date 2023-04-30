@@ -2,18 +2,18 @@
 #include <stdlib.h>
 
 int main(void){
-    int a,  b, c;
+    float a,  b, c;
 
     printf("Ingresa un entero ");
-    scanf("%d",&a);
+    scanf("%f",&a);
     printf("Ingresa otro entero ");
-    scanf("%d",&b);
+    scanf("%f",&b);
     c=a+b;
 
-    printf("a = %d\n",a);
-    printf("b = %d\n",b);
-    printf("c = %d\n",c);
-    printf("%d + %d = %d\n",a,b,c);
+    printf("a = %f\n",a);
+    printf("b = %f\n",b);
+    printf("c = %f\n",c);
+    printf("%f + %f = %f\n",a,b,c);
 
     return 0;
 }
