@@ -1,15 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 int main(void){
     float base, altura, area, perimetro;
 
     printf("Ingresa base ");
     scanf("%f",&base);
-    printf("Ingresa altura ");
-    scanf("%f",&altura);
-    area = base*altura;
-    perimetro = 2*base + 2*altura;
+
+    altura = sqrt( pow(base,2) - pow(base/2,2) );
+    area = base*altura/2;
+    perimetro = 3*base;
 
     printf("base\t  = %f\n",base);
     printf("altura\t  = %f\n",altura);
