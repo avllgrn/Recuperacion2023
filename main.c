@@ -2,18 +2,19 @@
 #include <stdlib.h>
 
 int main(void){
-    float a,  b, c;
+    float base, altura, area, perimetro;
 
-    printf("Ingresa un entero ");
-    scanf("%f",&a);
-    printf("Ingresa otro entero ");
-    scanf("%f",&b);
-    c=a+b;
+    printf("Ingresa base ");
+    scanf("%f",&base);
+    printf("Ingresa altura ");
+    scanf("%f",&altura);
+    area = base*altura;
+    perimetro = 2*base + 2*altura;
 
-    printf("a = %f\n",a);
-    printf("b = %f\n",b);
-    printf("c = %f\n",c);
-    printf("%f + %f = %f\n",a,b,c);
+    printf("base\t  = %f\n",base);
+    printf("altura\t  = %f\n",altura);
+    printf("area\t  = %f\n",area);
+    printf("perimetro = %f\n",perimetro);
 
     return 0;
 }
