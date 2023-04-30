@@ -2,17 +2,16 @@
 #include <stdlib.h>
 
 int main(void){
-    int a;
-    float b;
-    char c;
+    int a,  b, c;
 
     a=5;
-    b=8.3;
-    c='x';
+    b=8;
+    c=a+b;
 
     printf("a = %d\n",a);
-    printf("b = %f\n",b);
-    printf("c = %c\n",c);
+    printf("b = %d\n",b);
+    printf("c = %d\n",c);
+    printf("%d + %d = %d\n",a,b,c);
 
     return 0;
 }
